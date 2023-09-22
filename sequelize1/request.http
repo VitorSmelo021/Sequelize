@@ -1,0 +1,27 @@
+POST http://localhost:4044/users
+content-type: application/json
+
+{
+    "name": "paixao",
+    "email": "teste@teste.com"
+}
+
+###
+
+GET http://localhost:4044/users
+
+###
+
+GET http://localhost:4044/users/6
+
+###
+PUT http://localhost:4044/users/6
+content-type: application/json
+
+{
+    "name": "moana",
+    "email": "algum@coisa"
+}
+
+###
+DELETE http://localhost:4044/users/8
